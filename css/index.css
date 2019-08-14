@@ -143,10 +143,14 @@ h2 {
 p {
   padding: 0.5rem 0;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 .container {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 2rem;
 }
 .navigation {
   display: flex;
@@ -169,15 +173,4 @@ p {
 footer {
   background-color: lightgray;
   text-align: center;
-}
-body,
-.conatiner,
-nav,
-div,
-header,
-section,
-footer {
-  border: 1px solid red;
-  padding: 2px;
-  margin: 2px;
 }
